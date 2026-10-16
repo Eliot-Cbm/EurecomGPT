@@ -44,9 +44,9 @@ Copy these from `submission/phase1_report.json`. Cold is `cold_ms`; warm median 
 
 | Platform | Cold (ms) | Warm median (ms) |
 |---|---|---|
-| IaaS VM | <!--answer:vm_cold_ms-->232.8<!--/answer--> | <!--answer:vm_warm_median_ms-->211.6<!--/answer--> |
-| Cloud Run | <!--answer:cloudrun_cold_ms-->4179.1<!--/answer--> | <!--answer:cloudrun_warm_median_ms-->644.4<!--/answer--> |
-| Cloud Function | <!--answer:function_cold_ms-->1312.3<!--/answer--> | <!--answer:function_warm_median_ms-->636.0<!--/answer--> |
+| IaaS VM | <!--answer:vm_cold_ms-->232.9<!--/answer--> | <!--answer:vm_warm_median_ms-->211.4<!--/answer--> |
+| Cloud Run | <!--answer:cloudrun_cold_ms-->656.4<!--/answer--> | <!--answer:cloudrun_warm_median_ms-->635.8<!--/answer--> |
+| Cloud Function | <!--answer:function_cold_ms-->136.5<!--/answer--> | <!--answer:function_warm_median_ms-->635.5<!--/answer--> |
 
 Include your histogram or plot of the warm distribution below (an image, or the ASCII chart
 `measure.py` prints). This is read by a human, not the grader:
@@ -54,14 +54,14 @@ Include your histogram or plot of the warm distribution below (an image, or the 
 <!--answer:latency_plot-->
 Phase 1 — deployment measurements
 
-VM        cold=  232.8ms  warm_median=  211.6ms
-#############
+VM        cold=  232.9ms  warm_median=  211.4ms
+            #############
 
-Cloud Run cold= 4179.1ms  warm_median=  644.4ms
-########################################
+Cloud Run cold=  656.4ms  warm_median=  635.8ms
+            ########################################
 
-Function  cold= 1312.3ms  warm_median=  636.0ms
-#######################################
+Function  cold=  136.5ms  warm_median=  635.5ms
+            ########################################
 <!--/answer-->
 
 ---
