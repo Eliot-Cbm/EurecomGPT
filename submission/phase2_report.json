@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 265.237,
+    "vectorized_ms": 1.232,
+    "speedup": 215.29
+  },
+  "threads": {
+    "1": 2618.3,
+    "2": 2254.063,
+    "4": 2413.618,
+    "8": 2406.892
+  },
+  "devices": {
+    "cpu_ms": 524100.1,
+    "gpu_ms": 12949.9
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4578,
+    "param_count": 4935680
+  },
+  "sample": "\nAnd accused man of a mon,\nAnd with the poid of Matrensua Main only\nWho duke state to hath baught it me the proson?\n\nSIVENCEL:\nO doubt cries an for best.\n\nPOLIXENES:\nI how yet paor thought upondeed\nOr ",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-9cb18d72-19ed-44b3-929-eurecomgpt/model.safetensors"
+  }
+}
